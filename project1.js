@@ -74,17 +74,3 @@ let movieList = function(data){
 
   
   input.addEventListener('keyup', filterData);
-  /*input = document.getElementById('filtered_data');
-  
-  let filterData = function(event){
-    keyword = input.value.toLowerCase();
-    filtered_data = data.filter(function(item){
-          item = item.title.toLowerCase();
-         return item.indexOf(keyword) > -1; 
-    });
-    
-    movieList(filtered_data);
-  }
-
-  
-  input.addEventListener('keyup', filterData);*/
